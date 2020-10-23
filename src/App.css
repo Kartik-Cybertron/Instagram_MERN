@@ -1,0 +1,39 @@
+*{
+  margin :0; 
+}
+
+.App{
+  background-color: #fafafa;
+ }
+ 
+.app_header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white; 
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;    /*for logo --> keeps the aspect ratio doesn't strech or break the img*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.app_headerImage{
+  object-fit: contain;
+
+}
+
+.app_Posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app_PostsRight{
+  margin-left: 20px;
+}
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+}
